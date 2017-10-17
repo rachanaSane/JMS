@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:SetFLUXFAReportMessageRequest xmlns:p="http://europa.eu/ec/fisheries/uvms/activity/model/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europa.eu/ec/fisheries/uvms/activity/model/schemas Activity_RQ_RS.xsd ">
+  <method>SET_FLUX_FA_REPORT_MESSAGE</method>
+  <request>SOURCE</request>
+</p:SetFLUXFAReportMessageRequest>

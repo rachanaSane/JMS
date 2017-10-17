@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FishingTripRequest xmlns:p="http://europa.eu/ec/fisheries/uvms/activity/model/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europa.eu/ec/fisheries/uvms/activity/model/schemas Activity_RQ_RS.xsd ">
+  <method>GET_FISHING_TRIPS</method>
+  <pluginType>FLUX</pluginType>
+  <listValueFilters>
+    <key>REPORT_TYPE</key>
+    <value>DECLARATION</value>
+    <value>NOTIFICATION</value>
+  </listValueFilters>
+  <listValueFilters>
+    <key>ACTIVITY_TYPE</key>
+    <value>DEPARTURE</value>
+    <value>ARRIVAL</value>
+    <value>FISHING_OPERATION</value>
+  </listValueFilters>
+  <listValueFilters>
+    <key>VESSEL_NAME</key>
+    <value>Test Name</value>
+  </listValueFilters>
+  <listValueFilters>
+    <key>VESSEL_IDENTIFIRE</key>
+    <value>ID 1</value>
+  </listValueFilters>
+  <listValueFilters>
+    <key>GEAR</key>
+    <value>Code Type 1</value>
+    <value>Code Type 2</value>
+  </listValueFilters>
+  <listValueFilters>
+    <key>SPECIES</key>
+    <value>ONBOARD</value>
+  </listValueFilters>
+  <listValueFilters>
+    <key>MASTER</key>
+    <value>Mr</value>
+    <value>Test Name</value>
+  </listValueFilters>
+ <!-- <listValueFilters>
+    <key>PORT</key>
+    <value>25.5b</value>
+  </listValueFilters>      It can be either be PORT or AREA . Both filters can not be applied   -->
+  <singleValueFilters>
+    <key>SOURCE</key>
+    <value>FLUX</value>
+  </singleValueFilters>
+  <singleValueFilters>
+    <key>PERIOD_START</key>
+    <value>2007-05-27T07:47:31</value>
+  </singleValueFilters>
+  <singleValueFilters>
+    <key>PERIOD_END</key>
+    <value>2017-05-27T07:47:31</value>
+  </singleValueFilters>
+  <singleValueFilters>
+    <key>AREAS</key>
+    <value>25.5b</value>
+  </singleValueFilters>
+  <singleValueFilters>
+    <key>QUNTITY_MIN</key>
+    <value>100</value>
+  </singleValueFilters>
+   <singleValueFilters>
+     <key>QUNTITY_MAX</key>
+     <value>300</value>
+   </singleValueFilters>
+   <singleValueFilters>
+     <key>WEIGHT_MEASURE</key>
+     <value>KG</value>
+   </singleValueFilters>
+  <singleValueFilters>
+    <key>PURPOSE</key>
+    <value>5</value>
+  </singleValueFilters>
+ </p:FishingTripRequest>

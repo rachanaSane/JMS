@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FishingTripRequest xmlns:p="http://europa.eu/ec/fisheries/uvms/activity/model/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europa.eu/ec/fisheries/uvms/activity/model/schemas Activity_RQ_RS.xsd ">
+  <method>GET_FISHING_TRIPS</method>
+  <pluginType>FLUX</pluginType>
+  <filters>
+    <key>SOURCE</key>
+    <value>FLUX</value>
+  </filters>
+</p:FishingTripRequest>

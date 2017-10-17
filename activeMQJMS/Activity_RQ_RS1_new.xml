@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FishingTripRequest xmlns:p="http://europa.eu/ec/fisheries/uvms/activity/model/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europa.eu/ec/fisheries/uvms/activity/model/schemas Activity_RQ_RS.xsd ">
+  <method>GET_FISHING_TRIPS</method>
+  <pluginType>FLUX</pluginType>
+  <listValueFilters>
+    <key>PORT</key>
+    <value>50.157</value>
+  </listValueFilters>
+  <singleValueFilters>
+    <key>PERIOD_START</key>
+    <value>2011-01-27T07:47:31</value>
+  </singleValueFilters>
+  <singleValueFilters>
+    <key>PERIOD_END</key>
+    <value>2011-02-27T07:47:31</value>
+  </singleValueFilters>
+
+ </p:FishingTripRequest>

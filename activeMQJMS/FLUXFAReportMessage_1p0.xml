@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsm:FLUXFAReportMessage xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:17" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:18" xmlns:rsm="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:1" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:18" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:1 FLUXFAReportMessage_1p0.xsd ">
+  <rsm:FLUXReportDocument>
+    <ram:ID schemeAgencyID="token" schemeAgencyName="" schemeDataURI="http://tempuri.org" schemeID="token" schemeName="" schemeURI="http://tempuri.org" schemeVersionID="token">token</ram:ID>
+    <ram:ReferencedID schemeAgencyID="token" schemeAgencyName="" schemeDataURI="http://tempuri.org" schemeID="token" schemeName="" schemeURI="http://tempuri.org" schemeVersionID="token">token</ram:ReferencedID>
+    <ram:CreationDateTime>
+      <udt:DateTimeString format="">udt:DateTimeString</udt:DateTimeString>
+    </ram:CreationDateTime>
+    <ram:PurposeCode languageID="token" listAgencyID="token" listAgencyName="" listID="token" listName="" listSchemeURI="http://tempuri.org" listURI="http://tempuri.org" listVersionID="token" name="">token</ram:PurposeCode>
+    <ram:Purpose languageID="token" languageLocaleID="token">ram:Purpose</ram:Purpose>
+    <ram:TypeCode languageID="token" listAgencyID="token" listAgencyName="" listID="token" listName="" listSchemeURI="http://tempuri.org" listURI="http://tempuri.org" listVersionID="token" name="">token</ram:TypeCode>
+    <ram:OwnerFLUXParty>
+      <ram:ID schemeAgencyID="token" schemeAgencyName="" schemeDataURI="http://tempuri.org" schemeID="token" schemeName="" schemeURI="http://tempuri.org" schemeVersionID="token">token</ram:ID>
+    </ram:OwnerFLUXParty>
+  </rsm:FLUXReportDocument>
+  <rsm:FAReportDocument>
+    <ram:TypeCode languageID="token" listAgencyID="token" listAgencyName="" listID="token" listName="" listSchemeURI="http://tempuri.org" listURI="http://tempuri.org" listVersionID="token" name="">token</ram:TypeCode>
+    <ram:FMCMarkerCode languageID="token" listAgencyID="token" listAgencyName="" listID="token" listName="" listSchemeURI="http://tempuri.org" listURI="http://tempuri.org" listVersionID="token" name="">token</ram:FMCMarkerCode>
+    <ram:RelatedReportID schemeAgencyID="token" schemeAgencyName="" schemeDataURI="http://tempuri.org" schemeID="token" schemeName="" schemeURI="http://tempuri.org" schemeVersionID="token">token</ram:RelatedReportID>
+    <ram:AcceptanceDateTime>
+      <udt:DateTimeString format="">udt:DateTimeString</udt:DateTimeString>
+    </ram:AcceptanceDateTime>
+    <ram:RelatedFLUXReportDocument>
+      <ram:ID schemeAgencyID="token" schemeAgencyName="" schemeDataURI="http://tempuri.org" schemeID="token" schemeName="" schemeURI="http://tempuri.org" schemeVersionID="token">token</ram:ID>
+      <ram:CreationDateTime>
+        <udt:DateTimeString format="">udt:DateTimeString</udt:DateTimeString>
+      </ram:CreationDateTime>
+      <ram:PurposeCode languageID="token" listAgencyID="token" listAgencyName="" listID="token" listName="" listSchemeURI="http://tempuri.org" listURI="http://tempuri.org" listVersionID="token" name="">token</ram:PurposeCode>
+    </ram:RelatedFLUXReportDocument>
+    <ram:SpecifiedFishingActivity>
+      <ram:TypeCode languageID="token" listAgencyID="token" listAgencyName="" listID="token" listName="" listSchemeURI="http://tempuri.org" listURI="http://tempuri.org" listVersionID="token" name="">token</ram:TypeCode>
+    </ram:SpecifiedFishingActivity>
+    <ram:SpecifiedVesselTransportMeans>
+      <ram:ID schemeAgencyID="token" schemeAgencyName="" schemeDataURI="http://tempuri.org" schemeID="token" schemeName="" schemeURI="http://tempuri.org" schemeVersionID="token">token</ram:ID>
+    </ram:SpecifiedVesselTransportMeans>
+  </rsm:FAReportDocument>
+</rsm:FLUXFAReportMessage>

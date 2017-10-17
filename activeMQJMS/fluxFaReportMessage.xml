@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rsm:FLUXFAReportMessage xsi:schemaLocation="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:1 FLUXFAReportMessage_1p0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rsm="urn:un:unece:uncefact:data:standard:FLUXFAReportMessage:1" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:18" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:18">
+	<rsm:FLUXReportDocument>
+<ram:ID schemeID="UUID">0eb26f1d-f805-4143-8c92-14ac884fc9e4</ram:ID>
+		<ram:CreationDateTime><udt:DateTime>2016-05-17T23:41:00.000Z</udt:DateTime></ram:CreationDateTime>
+<ram:PurposeCode>9</ram:PurposeCode>
+<ram:OwnerFLUXParty><ram:ID>NOR</ram:ID></ram:OwnerFLUXParty>
+<!--/rsm:FLUXReportDocument-->
+
+<rsm:FAReportDocument>
+<ram:TypeCode>DECLARATION</ram:TypeCode >
+<ram:AcceptanceDateTime><udt:DateTime>2016-05-17T23:37:00.000Z</udt:DateTime></ram:AcceptanceDateTime>
+<ram:RelatedFLUXReportDocument>
+<ram:ID schemeID="UUID">190b7ff7-2d85-42d5-8e9d-2da0e0360fe7</ram:ID>
+<ram:CreationDateTime><udt:DateTime>2016-05-17T23:40:00.000Z</udt:DateTime></ram:CreationDateTime>
+<ram:PurposeCode>9</ram:PurposeCode>
+<ram:OwnerFLUXParty><ram:ID>NOR</ram:ID></ram:OwnerFLUXParty>
+</ram:RelatedFLUXReportDocument>
+
+<ram:SpecifiedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">FISHING_OPERATION</ram:TypeCode>
+<ram:VesselRelatedActivityCode listID="VESSEL_ACTIVITY">FSH</ram:VesselRelatedActivityCode>
+
+<ram:SpecifiedFACatch>
+<ram:SpeciesCode>HAD</ram:SpeciesCode>
+<ram:WeightMeasure unitCode="KGM">1590.00</ram:WeightMeasure>
+<ram:TypeCode listID="FA_CATCH_TYPE">ONBOARD</ram:TypeCode>
+</ram:SpecifiedFACatch>
+
+<ram:RelatedFLUXLocation>
+<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+<ram:ID schemeID="TERRITORY">GBR</ram:ID>
+</ram:RelatedFLUXLocation>
+
+<ram:SpecifiedFishingGear>
+<ram:TypeCode listID="GEAR_TYPE">PTB</ram:TypeCode>
+<ram:ApplicableGearCharacteristic>	
+<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">ME</ram:TypeCode>
+<ram:ValueMeasure unitCode="MMT">120</ram:ValueMeasure>
+</ram:ApplicableGearCharacteristic>
+<ram:ApplicableGearCharacteristic>	
+					<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GN</ram:TypeCode>
+<ram:ValueCode>2</ram:ValueCode>
+</ram:ApplicableGearCharacteristic>
+</ram:SpecifiedFishingGear>
+
+<ram:RelatedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">GEAR_SHOT</ram:TypeCode>
+<ram:OccurrenceDateTime><udt:DateTime>2016-05-17T02:55:00.000Z</udt:DateTime></ram:OccurrenceDateTime>
+
+<ram:RelatedFLUXLocation>
+				<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+				<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:LongitudeMeasure>-0.383</ram:LongitudeMeasure>
+					<ram:LatitudeMeasure>57.283</ram:LatitudeMeasure>
+				</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+</ram:RelatedFLUXLocation>
+</ram:RelatedFishingActivity>
+
+<ram:RelatedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">GEAR_RETRIEVAL</ram:TypeCode>
+<ram:OccurrenceDateTime><udt:DateTime>2016-05-17T08:17:00.000Z</udt:DateTime></ram:OccurrenceDateTime>
+
+<ram:RelatedFLUXLocation>
+				<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+				<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:LongitudeMeasure>-0.0010</ram:LongitudeMeasure>
+					<ram:LatitudeMeasure>57.335</ram:LatitudeMeasure>
+				</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+</ram:RelatedFLUXLocation>
+</ram:RelatedFishingActivity>
+
+<ram:SpecifiedDelimitedPeriod>
+<ram:DurationMeasure unitCode="MIN">322</ram:DurationMeasure>
+</ram:SpecifiedDelimitedPeriod>
+
+			<ram:SpecifiedFishingTrip>
+<ram:ID schemeID="EU_TRIP_ID">NOR-TRP-20160517234053706</ram:ID>
+</ram:SpecifiedFishingTrip>
+
+<ram:RelatedVesselTransportMeans>
+	<ram:ID schemeID ="IRCS">RADIO12</ram:ID>
+	<ram:RoleCode listID="FA_VESSEL_ROLE">PAIR_FISHING_PARTNER</ram:RoleCode>
+<ram:SpecifiedRegistrationEvent>
+<ram:RelatedRegistrationLocation>
+<ram:CountryID schemeID="TERRITORY">NOR</ram:CountryID>
+</ram:RelatedRegistrationLocation>
+</ram:SpecifiedRegistrationEvent>
+</ram:RelatedVesselTransportMeans>
+</ram:SpecifiedFishingActivity>
+		
+<ram:SpecifiedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">FISHING_OPERATION</ram:TypeCode>
+<ram:VesselRelatedActivityCode listID="VESSEL_ACTIVITY">FSH</ram:VesselRelatedActivityCode>
+
+<ram:RelatedFLUXLocation>
+<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+<ram:ID schemeID="TERRITORY">GBR</ram:ID>
+</ram:RelatedFLUXLocation>
+
+<ram:SpecifiedFishingGear>
+<ram:TypeCode listID="GEAR_TYPE">PTB</ram:TypeCode>
+<ram:ApplicableGearCharacteristic>	
+<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">ME</ram:TypeCode>
+<ram:ValueMeasure unitCode="MMT">120</ram:ValueMeasure>
+</ram:ApplicableGearCharacteristic>
+<ram:ApplicableGearCharacteristic>	
+					<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GN</ram:TypeCode>
+<ram:ValueCode>2</ram:ValueCode>
+</ram:ApplicableGearCharacteristic>
+</ram:SpecifiedFishingGear>
+
+<ram:RelatedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">GEAR_SHOT</ram:TypeCode>
+<ram:OccurrenceDateTime><udt:DateTime>2016-05-17T11:20:00.000Z</udt:DateTime></ram:OccurrenceDateTime>
+
+<ram:RelatedFLUXLocation>
+				<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+				<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:LongitudeMeasure>0.651</ram:LongitudeMeasure>
+					<ram:LatitudeMeasure>57.468</ram:LatitudeMeasure>
+				</ram:SpecifiedPhysicalFLUXGeographicalCoordinate >
+</ram:RelatedFLUXLocation>
+</ram:RelatedFishingActivity>
+
+<ram:RelatedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">GEAR_RETRIEVAL</ram:TypeCode>
+<ram:OccurrenceDateTime><udt:DateTime>2016-05-17T14:04:00.000Z</udt:DateTime></ram:OccurrenceDateTime>
+
+<ram:RelatedFLUXLocation>
+				<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+				<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:LongitudeMeasure>0.867</ram:LongitudeMeasure>
+					<ram:LatitudeMeasure>57.467</ram:LatitudeMeasure>
+				</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+</ram:RelatedFLUXLocation>
+</ram:RelatedFishingActivity>
+
+<ram:SpecifiedDelimitedPeriod>
+<ram:DurationMeasure unitCode="MIN">173</ram:DurationMeasure>
+</ram:SpecifiedDelimitedPeriod>
+
+<ram:SpecifiedFishingTrip>
+<ram:ID schemeID="EU_TRIP_ID">NOR-TRP-20160517234053706</ram:ID>
+</ram:SpecifiedFishingTrip>
+
+<ram:RelatedVesselTransportMeans>
+	<ram:ID schemeID ="IRCS">RADIO12</ram:ID>
+	<ram:RoleCode listID="FA_VESSEL_ROLE">PAIR_FISHING_PARTNER</ram:RoleCode>
+<ram:SpecifiedRegistrationEvent>
+<ram:RelatedRegistrationLocation>
+<ram:CountryID schemeID="TERRITORY">NOR</ram:CountryID>
+</ram:RelatedRegistrationLocation>
+</ram:SpecifiedRegistrationEvent>
+</ram:RelatedVesselTransportMeans>
+</ram:SpecifiedFishingActivity>
+
+<ram:SpecifiedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">FISHING_OPERATION</ram:TypeCode>
+<ram:VesselRelatedActivityCode listID="VESSEL_ACTIVITY">FSH</ram:VesselRelatedActivityCode>
+
+<ram:SpecifiedFACatch>
+<ram:SpeciesCode>HAD</ram:SpeciesCode>
+<ram:WeightMeasure unitCode="KGM">1026.00</ram:WeightMeasure>
+<ram:TypeCode listID="FA_CATCH_TYPE">ONBOARD</ram:TypeCode>
+</ram:SpecifiedFACatch>
+<ram:SpecifiedFACatch>
+<ram:SpeciesCode>PLE</ram:SpeciesCode>
+<ram:WeightMeasure unitCode="KGM">100.00</ram:WeightMeasure>
+<ram:TypeCode listID="FA_CATCH_TYPE">ONBOARD</ram:TypeCode>
+</ram:SpecifiedFACatch>
+<ram:SpecifiedFACatch>
+<ram:SpeciesCode>POK</ram:SpeciesCode>
+<ram:WeightMeasure unitCode="KGM">48.00</ram:WeightMeasure>
+<ram:TypeCode listID="FA_CATCH_TYPE">ONBOARD</ram:TypeCode>
+</ram:SpecifiedFACatch>
+
+<ram:RelatedFLUXLocation>
+<ram:TypeCode listID="FLUX_LOCATION_TYPE">AREA</ram:TypeCode>
+<ram:ID schemeID="TERRITORY">GBR</ram:ID>
+</ram:RelatedFLUXLocation>
+
+<ram:SpecifiedFishingGear>
+<ram:TypeCode listID="GEAR_TYPE">PTB</ram:TypeCode>
+<ram:ApplicableGearCharacteristic>	
+<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">ME</ram:TypeCode>
+<ram:ValueMeasure unitCode="MMT">120</ram:ValueMeasure>
+</ram:ApplicableGearCharacteristic>
+<ram:ApplicableGearCharacteristic>	
+					<ram:TypeCode listID="FA_GEAR_CHARACTERISTIC">GN</ram:TypeCode>
+<ram:ValueCode>2</ram:ValueCode>
+</ram:ApplicableGearCharacteristic>
+</ram:SpecifiedFishingGear>
+
+<ram:RelatedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">GEAR_SHOT</ram:TypeCode>
+<ram:OccurrenceDateTime><udt:DateTime>2016-05-17T17:25:00.000Z</udt:DateTime></ram:OccurrenceDateTime>
+
+<ram:RelatedFLUXLocation>
+				<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+				<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:LongitudeMeasure>0.201</ram:LongitudeMeasure>
+					<ram:LatitudeMeasure>57.284</ram:LatitudeMeasure>
+				</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+</ram:RelatedFLUXLocation>
+</ram:RelatedFishingActivity>
+
+<ram:RelatedFishingActivity>
+<ram:TypeCode listID="FLUX_FA_TYPE">GEAR_RETRIEVAL</ram:TypeCode>
+<ram:OccurrenceDateTime><udt:DateTime>2016-05-17T20:48:00.000Z</udt:DateTime></ram:OccurrenceDateTime>
+
+<ram:RelatedFLUXLocation>
+				<ram:TypeCode listID="FLUX_LOCATION_TYPE">POSITION</ram:TypeCode>
+				<ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+					<ram:LongitudeMeasure>0.184</ram:LongitudeMeasure>
+					<ram:LatitudeMeasure>57.117</ram:LatitudeMeasure>
+				</ram:SpecifiedPhysicalFLUXGeographicalCoordinate>
+</ram:RelatedFLUXLocation>
+</ram:RelatedFishingActivity>
+
+<ram:SpecifiedDelimitedPeriod>
+<ram:DurationMeasure unitCode="MIN">203</ram:DurationMeasure>
+</ram:SpecifiedDelimitedPeriod>
+
+<ram:SpecifiedFishingTrip>
+<ram:ID schemeID="EU_TRIP_ID">NOR-TRP-20160517234053706</ram:ID>
+</ram:SpecifiedFishingTrip>
+
+<ram:RelatedVesselTransportMeans>
+	<ram:ID schemeID ="IRCS">RADIO12</ram:ID>
+	<ram:RoleCode listID="FA_VESSEL_ROLE">PAIR_FISHING_PARTNER</ram:RoleCode>
+<ram:SpecifiedRegistrationEvent>
+<ram:RelatedRegistrationLocation>
+<ram:CountryID schemeID="TERRITORY">NOR</ram:CountryID>
+</ram:RelatedRegistrationLocation>
+</ram:SpecifiedRegistrationEvent>
+</ram:RelatedVesselTransportMeans>
+</ram:SpecifiedFishingActivity>
+
+<ram:SpecifiedVesselTransportMeans>
+<ram:ID schemeID ="IRCS">RADIO10</ram:ID>
+<ram:SpecifiedRegistrationEvent>
+<ram:RelatedRegistrationLocation>
+<ram:CountryID schemeID="TERRITORY">NOR</ram:CountryID>
+</ram:RelatedRegistrationLocation>
+</ram:SpecifiedRegistrationEvent>
+<ram:SpecifiedContactParty>
+<ram:RoleCode listID="FLUX_CONTACT_ROLE">MASTER</ram:RoleCode>
+<ram:SpecifiedContactPerson>
+<ram:GivenName>HANS</ram:GivenName>
+<ram:FamilyName>HANSEN</ram:FamilyName >
+</ram:SpecifiedContactPerson>
+</ram:SpecifiedContactParty>
+</ram:SpecifiedVesselTransportMeans>
+
+</rsm:FAReportDocument>
+</rsm:FLUXFAReportMessage>
